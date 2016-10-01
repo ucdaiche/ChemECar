@@ -1,108 +1,251 @@
 <!DOCTYPE html>
-<html>
-<title>UC Davis Chem-E Car</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
-<style>
-body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
-.w3-navbar,h1,button {font-family: "Montserrat", sans-serif}
-.fa-anchor,.fa-coffee {font-size:200px}
-</style>
-<body>
+<html lang="en">
 
-<!-- Navbar -->
-<ul class="w3-navbar w3-red w3-card-2 w3-top w3-left-align w3-large">
-  <li class="w3-hide-medium w3-hide-large w3-opennav w3-right">
-    <a class="w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-  </li>
-  <li><a href="#" class="w3-padding-large w3-white">Home</a></li>
-  <li class="w3-hide-small"><a href="#" class="w3-padding-large w3-hover-white">About</a></li>
-  <li class="w3-hide-small"><a href="#" class="w3-padding-large w3-hover-white">Team</a></li>
-  <li class="w3-hide-small"><a href="#" class="w3-padding-large w3-hover-white">Join</a></li>
-</ul>
+<head>
 
-<!-- Navbar on small screens -->
-<div id="navDemo" class="w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:51px">
-  <ul class="w3-navbar w3-left-align w3-large w3-black">
-    <li><a class="w3-padding-large" href="#">About</a></li>
-    <li><a class="w3-padding-large" href="#">Team</a></li>
-    <li><a class="w3-padding-large" href="#">Join</a></li>
-  </ul>
-</div>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-<!-- Header -->
-<div class="w3-container w3-red w3-center w3-padding-128">
-  <h1 class="w3-margin w3-jumbo">Chem-E Car</h1>
-  
-  <button class="w3-btn w3-padding-16 w3-large w3-margin-top">Know More</button>
-</div>
+    <title>UC Davis Chem-E Car</title>
 
-<!-- First Grid -->
-<div class="w3-row-padding w3-padding-64 w3-container">
-  <div class="w3-content">
-    <div class="w3-twothird">
-      <h1>Lorem Ipsum</h1>
-      <h5 class="w3-padding-32">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h5>
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-      <p class="w3-text-grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-        laboris nisi ut aliquip ex ea commodo consequat.</p>
-    </div>
+    <!-- Custom CSS -->
+    <link href="css/scrolling-nav.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
 
-    <div class="w3-third w3-center">
-      <i class="fa fa-anchor w3-padding-64 w3-text-red"></i>
-    </div>
-  </div>
-</div>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
-<!-- Second Grid -->
-<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
-  <div class="w3-content">
-    <div class="w3-third w3-center">
-      <i class="fa fa-coffee w3-padding-64 w3-text-red w3-margin-right"></i>
-    </div>
+</head>
 
-    <div class="w3-twothird">
-      <h1>Lorem Ipsum</h1>
-      <h5 class="w3-padding-32">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h5>
+<!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
 
-      <p class="w3-text-grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-        laboris nisi ut aliquip ex ea commodo consequat.</p>
-    </div>
-  </div>
-</div>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
-<div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
-    <h1 class="w3-margin w3-xlarge">Quote of the day: live life</h1>
-</div>
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Start Bootstrap</a>
+            </div>
 
-<!-- Footer -->
-<footer class="w3-container w3-padding-64 w3-center w3-opacity">
-  <div class="w3-xlarge w3-padding-32">
-   <a href="#" class="w3-hover-text-indigo"><i class="fa fa-facebook-official"></i></a>
-   <a href="#" class="w3-hover-text-red"><i class="fa fa-pinterest-p"></i></a>
-   <a href="#" class="w3-hover-text-light-blue"><i class="fa fa-twitter"></i></a>
-   <a href="#" class="w3-hover-text-grey"><i class="fa fa-flickr"></i></a>
-   <a href="#" class="w3-hover-text-indigo"><i class="fa fa-linkedin"></i></a>
- </div>
-</footer>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a class="page-scroll" href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#services">Services</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                    <li>
+                    <a class="page-scroll" href="#timeline">Timeline</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
 
-<script>
-// Used to toggle the menu on small screens when clicking on the menu button
-function myFunction() {
-    var x = document.getElementById("navDemo");
-    if (x.className.indexOf("w3-show") == -1) {
-        x.className += " w3-show";
-    } else {
-        x.className = x.className.replace(" w3-show", "");
-    }
-}
-</script>
+    <!-- Intro Section -->
+    <section id="intro" class="intro-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+
+                    <h1>UC Davis Chem-E car</h1>
+                    
+                    <a class="btn btn-default page-scroll" href="#about">Know More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>About</h1>
+                </div>
+
+                <p>The ChemE car team is similar to a robotics team. However, instead of a mechanically/electrically based system, our small cars are both fueled and stopped by chemical reactions. We compete in Regionals once a year, where we are given a target distance one hour before competition time. In that hour, our team modifies the specific power and stopping reactions in hopes of getting as close to the target distance as possible in two minutes or less. The closest cars, along with their teams, continue on to Nationals. 
+
+                Our team consists of a Chassis group and a Stopping & Power group. Chassis receives the necessary training for building the car, and Stopping & Power receives lab safety training for testing the stopping and power reactions. Also keep in mind that there is typically an electronic component to the Stopping & Power team, in which you can choose to participate if you are interested. 
+
+                Given they spend a specified time in the lab/at meetings, members can choose to receive one unit of ECH 98/ECH198 credit per quarter provided they fill out and turn in the paperwork by the given deadline. This can go towards upper division Chemical Engineering elective credits. 
+</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Calendar</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="row">
+                <div class="row mt centered">
+                <div class="col-lg-6 col-lg-offset-3">
+                <h1>Our Awesome Team.</h1>
+                </div>
+                </div><!-- /row -->
+                <div class="row mt centered">
+                <div class="col-lg-3">
+                <img class="img-circle" src="assets/img/Daniela-Ivey.jpg" width="140" alt="">
+                <h4>Daniela Ivey</h4>
+                <p>Team Captain</p>
+                <p><i class="glyphicon glyphicon-send"></i> <i class="glyphicon glyphicon-phone"></i> <i class="glyphicon glyphicon-globe"></i></p>
+                </div><!--/col-lg-4 -->
+
+                <div class="col-lg-3">
+                <img class="img-circle" src="assets/img/pic2.jpg" width="140" alt="">
+                <h4>Lauren London</h4>
+                <p>Team Manager</p>
+                <p><i class="glyphicon glyphicon-send"></i> <i class="glyphicon glyphicon-phone"></i> <i class="glyphicon glyphicon-globe"></i></p>
+                </div><!--/col-lg-4 -->
+
+                <div class="col-lg-3">
+                <img class="img-circle" src="assets/img/pic3.jpg" width="140" alt="">
+                <h4>Matthew Cheung</h4>
+                <p>Stopping & Power Lead</p>
+                <p><i class="glyphicon glyphicon-send"></i> <i class="glyphicon glyphicon-phone"></i> <i class="glyphicon glyphicon-globe"></i></p>
+                </div><!--/col-lg-4 -->
+
+                <div class="col-lg-3">
+                <img class="img-circle" src="assets/img/pic3.jpg" width="140" alt="">
+                <h4>Lane Stephens</h4>
+                <p>Chassis Lead</p>
+                <p><i class="glyphicon glyphicon-send"></i> <i class="glyphicon glyphicon-phone"></i> <i class="glyphicon glyphicon-globe"></i></p>
+                </div><!--/col-lg-4 -->
+                </div><!-- /row -->
+            </div>
+        </div>
+    </section>
+
+    <!-- TimeLine Section -->
+    <section id="timeline" class="contact-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="timeline">
+                        <li>
+                          <div class="timeline-badge info"><i class="glyphicon glyphicon-hand-left"></i></div>
+                          <div class="timeline-panel">
+                            <div class="timeline-heading">
+                              <h4 class="timeline-title">BrainStorm ideas</h4>
+                              <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> August 2016</small></p>
+                            </div>
+                            <div class="timeline-body">
+                              <p>details needed</p>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="timeline-inverted">
+                          <div class="timeline-badge warning"><i class="glyphicon glyphicon-chevron-right"></i></div>
+                          <div class="timeline-panel">
+                            <div class="timeline-heading">
+                              <h4 class="timeline-title">design experiments</h4>
+                            </div>
+                            <div class="timeline-body">
+                              <p>details needed</p>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="timeline-badge danger"><i class="glyphicon glyphicon-eye-open"></i></div>
+                          <div class="timeline-panel">
+                            <div class="timeline-heading">
+                              <h4 class="timeline-title">doing experiments</h4>
+                              <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> Dec 2016</small></p>
+                            </div>
+                            <div class="timeline-body">
+                              <p>details needed</p>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="timeline-inverted">
+                          <div class="timeline-badge default"><i class="glyphicon glyphicon-home"></i></div>
+                          <div class="timeline-panel">
+                            <div class="timeline-heading">
+                              <h4 class="timeline-title">Testing</h4>
+                            </div>
+                            <div class="timeline-body">
+                              <p>blablabaal.</p>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                           <div class="timeline-badge warning"><i class="glyphicon glyphicon-arrow-left"></i></div>
+                          <div class="timeline-panel">
+                            <div class="timeline-heading">
+                              <h4 class="timeline-title">Regionals</h4>
+                            </div>
+                            <div class="timeline-body">
+                              <p>blabalbal</p>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="timeline-inverted">
+                          <div class="timeline-badge success"><i class="glyphicon glyphicon-thumbs-up"></i></div>
+                          <div class="timeline-panel">
+                            <div class="timeline-heading">
+                              <h4 class="timeline-title">Nationals</h4>
+                            </div>
+                            <div class="timeline-body">
+                              <p>blabllalalal</p>
+                            </div>
+                          </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- jQuery Version 1.11.0 -->
+    <script src="js/jquery-1.11.0.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Scrolling Nav JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>
 
 </body>
-</html>
 
+</html>
